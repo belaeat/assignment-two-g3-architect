@@ -23,7 +23,6 @@ bootstrap for mobile screen 576px
 .btn-primary {
     width: 180px;
     height: 64px;
-    margin: 20px 25px;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -103,4 +102,38 @@ main {
     margin: 0 auto;
     background-color: #FFFFFF;
     max-width: 1440px;
+}
+
+/* Features styles below */
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 73px;
+    margin: 85px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.feature-content .section-title {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.feature-content strong {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature-content span {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
 }
