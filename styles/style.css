@@ -337,7 +337,7 @@ main {
 /* Media query styles below */
 /* This media query built upon "iPhoneXR" dimension*/
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
 
     nav,
     .banner-section-content,
@@ -391,7 +391,7 @@ main {
         text-align: center;
         top: 0;
         right: 0;
-        margin: 50px;
+        margin: 50px 0px 50px 30px;
     }
 
     .facts-section-content {
